@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM mongo
+FROM mongo:8.0.12
 
 # Copy mongod.conf
 COPY ./member_1.conf /etc/mongod.conf
