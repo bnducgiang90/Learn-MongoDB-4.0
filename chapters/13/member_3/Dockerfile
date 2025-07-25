@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM mongo
+FROM mongo:8.0.12
 
 # Install basic tools
 RUN \
