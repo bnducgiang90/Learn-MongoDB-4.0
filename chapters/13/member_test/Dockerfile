@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM mongo
+FROM mongo:8.0.12
 
 # Copy temp files and run init script
 COPY ./mongod.conf /tmp
